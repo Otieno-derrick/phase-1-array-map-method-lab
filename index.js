@@ -18,7 +18,7 @@ const titleCased = () => {
     const upperCased = titles.map(
       (tittle) => tittle.charAt (0).toUpperCase() + tittle.slice(1)
     );
-    const res = upperCased.join(" ");
-    return res;
+    const result = upperCased.join(" ");
+    return result;
   });
 };
